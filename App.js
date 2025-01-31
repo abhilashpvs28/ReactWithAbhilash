@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const App = () => {
-  return (
-    <div>app</div>
-  )
-}
+const jsxHeading = <h1 id="heading">Hi from Jsx by Abhilash</h1>
 
-export default App
+let root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(jsxHeading);
